@@ -1,0 +1,12 @@
+package testesenai;
+
+import org.openqa.selenium.WebDriver;
+
+public class TesteSiteSenai {
+	private WebDriver driver;
+	
+	@Before
+	public void abrirNevegador() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver\\chromedriver.exe");
+	}
+}

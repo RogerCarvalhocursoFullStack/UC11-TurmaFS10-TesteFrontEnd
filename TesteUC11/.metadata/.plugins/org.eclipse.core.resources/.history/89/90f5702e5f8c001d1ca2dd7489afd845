@@ -1,0 +1,5 @@
+package testesenai;
+
+public class TesteSiteSenai {
+	private WebDriver driver;
+}
